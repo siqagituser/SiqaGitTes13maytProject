@@ -27,6 +27,10 @@ services:
   packages:
   - name: SiqaGitTes13maytProject
     version: "1.0"
+- serviceName: project.siqagittes13mayt.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:dbnewinsert
+  packages:
+  - name: SiqaGitTes13maytProject
+    version: "1.0"
 configurationVariables:
   ? artConnection.SiqaGitTes13maytProject.project.siqagittes13mayt.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.minimumPoolSize
   : "1"
